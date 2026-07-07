@@ -4,7 +4,7 @@ import { removeUser } from "../Slice/UserSlice";
 import { removeJwt } from "../Slice/JwtSlice";
 
 const axiosInstance = axios.create({
-  baseURL: "https://hire-hub-backend-2.onrender.com/",
+  baseURL: "https://hire-hub-backend-3.onrender.com/",
 });
 
 // =======================

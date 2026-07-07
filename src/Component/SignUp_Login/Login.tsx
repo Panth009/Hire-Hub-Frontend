@@ -76,7 +76,7 @@ const Login = ()=>{
             })
             .catch((err) => {
                 console.log(err);
-                errorNotification('Login Failed , Invalid Credentials.',err.response.data.errorMessage)
+                errorNotification('Login Failed , Invalid Credentials.',err?.response?.data?.errorMessage)
                 setLoading(false);   // <-- Missing
             })
         }
