@@ -5,7 +5,7 @@ const Subscribe = ()=>{
         <div className="h-50 mt-20 flex items-center bg-mine-shaft-800 mx-20 py-3 rounded-xl justify-around">
         
             <div className="text-4xl w-2/5 text-center font-semibold mb-3 text-mine-shaft-100">
-                Never Wants To Miss Any <span className="text-bright-sun-400">Job News ?</span> 
+                Never Want to Miss a <span className="text-bright-sun-400">Job Opportunity ?</span> 
             </div>
             <div className="flex gap-4 rounded-xl bg-mine-shaft-700 px-3 py-2 items-center">
                 <TextInput
