@@ -15,7 +15,7 @@ const Testimonials = ()=>{
                         return (
                             <div key={idx} className="h-50 flex flex-col w-[19%] border border-bright-sun-400 rounded-lg p-3">
                                 <div className="flex gap-2 justify-items-center items-center">
-                                    <Avatar className="!h-14 !w-14" src='avatar.png' alt="its me" />
+                                    <Avatar className="!h-14 !w-14" src='/Avatar.png' alt="its me" />
                                     <div >
                                         <div className="text-lg font-semibold text-mine-shaft-200">{data.name}</div>
                                         <Rating value={data.rating} fractions={2} readOnly />
