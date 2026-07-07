@@ -17,7 +17,7 @@ const NotificationMenu = () => {
         
         console.log(user?.id);
         getNotifications(user?.id).then((res:any) => {
-            console.log(res)
+            // console.log(res)
             setNotifications(res)
         }).catch((err:any) => console.log(err))
     }, [user])
